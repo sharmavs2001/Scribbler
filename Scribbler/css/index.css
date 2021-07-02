@@ -21,9 +21,50 @@ body {
     font-size: 16px;
     font-weight: bold;
     margin-left: 10px;
+    font-family: Abel;
 }
 
 .middle-buttons {
     text-align: center;
     margin-top: 180px;
+}
+
+textarea {
+    margin-top: 10px;
+    background-color: rgb(241, 233, 233);
+    border-color: rgb(97, 93, 93);
+}
+
+.create-btn {
+    margin-top: 10px;
+    background-color: green;
+    font-size: 14px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    align-self: center;
+    font-family: Abel;
+}
+
+.createPost-modal-content {
+    padding: 1% 4%;
+    background-color: #fefefe;
+    margin: 1% 15%;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+#ptitle {
+    padding: 8px 0;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#pclose {
+    position: absolute;
+    right: 16%;
+}
+
+#createPostModal {
+    display: none;
 }
