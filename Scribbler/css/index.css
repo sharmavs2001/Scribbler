@@ -1,0 +1,29 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 !important;
+    background-size: 100% cover!important;
+    overflow: hidden;
+    display: block;
+    height: 100%;
+}
+
+.mbutn {
+    color: black;
+    background-color: hsla(39, 70%, 53%, 0.973);
+    font-weight: bold;
+    border-color: rgb(240, 220, 190);
+    padding: 7px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.middle-buttons {
+    text-align: center;
+    margin-top: 180px;
+}
