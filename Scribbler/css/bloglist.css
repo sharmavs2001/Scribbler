@@ -5,3 +5,83 @@ body {
 #tagline {
     color: white;
 }
+
+.posts-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.post-block {
+    width: 40%;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(17, 4, 63, 0.2), 0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    margin: 10px;
+    border-radius: 15px !important;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    max-height: 170px !important;
+}
+
+.left {
+    width: 20%;
+    max-width: 20%;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    overflow: hidden;
+    padding: 2%;
+}
+
+.right {
+    text-align: left;
+    width: 73%;
+    background-color: #E8E8E8;
+    color: #000000;
+    padding: 3% 3% 3% 3%;
+}
+
+.post-title {
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 25px;
+    overflow: hidden;
+    height: 24%;
+    margin-top: 2%;
+}
+
+.post-body {
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 4%;
+    overflow: hidden !important;
+    margin-bottom: 5%;
+    height: 50%;
+}
+
+.icons {
+    background-color: #E8E8E8;
+    width: 7%;
+    text-align: left;
+}
+
+.delete {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    top: 12%;
+}
+
+.more {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    top: 67%;
+}
