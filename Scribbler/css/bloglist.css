@@ -32,13 +32,13 @@ body {
     text-align: center;
     font-weight: bold;
     color: #000;
-    overflow: hidden;
+    overflow: auto;
     padding: 2%;
 }
 
 .right {
     text-align: left;
-    width: 73%;
+    width: 75%;
     background-color: #E8E8E8;
     color: #000000;
     padding: 3% 3% 3% 3%;
@@ -64,8 +64,9 @@ body {
 
 .icons {
     background-color: #E8E8E8;
-    width: 7%;
+    width: 5%;
     text-align: left;
+    padding-right: 5px !important;
 }
 
 .delete {
@@ -84,4 +85,42 @@ body {
     padding: 0 !important;
     position: relative;
     top: 67%;
+}
+
+.del-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#yes-btn {
+    background-color: #f44336;
+    /* Red */
+    border: none;
+    color: white;
+    padding: 3% 15% !important;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#no-btn {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 3% 15% !important;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#dtitle {
+    font-size: 18px;
+    margin: 20px;
+}
+
+#deleteContent {
+    width: 35% !important;
+    margin-top: 18%;
 }

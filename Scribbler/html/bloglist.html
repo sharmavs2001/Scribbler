@@ -117,7 +117,7 @@
                 <div class="icons">
                     <div class="delete">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
-                        <i class="fa fa-trash" style="font-size:24px"></i>
+                        <i class="fa fa-trash" onclick="deleteModal()" style="font-size:20px"></i>
                     </div>
                     <div class="more">
                         <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
@@ -150,7 +150,7 @@
                 <div class="icons">
                     <div class="delete">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
-                        <i class="fa fa-trash" style="font-size:24px"></i>
+                        <i class="fa fa-trash" onclick="deleteModal()" style="font-size:20px"></i>
                     </div>
                     <div class="more">
                         <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
@@ -184,7 +184,7 @@
                 <div class="icons">
                     <div class="delete">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
-                        <i class="fa fa-trash" style="font-size:24px"></i>
+                        <i class="fa fa-trash" onclick="deleteModal()" style="font-size:20px"></i>
                     </div>
                     <div class="more">
                         <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
@@ -220,7 +220,7 @@
                 <div class="icons">
                     <div class="delete">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
-                        <i class="fa fa-trash" style="font-size:24px"></i>
+                        <i class="fa fa-trash" onclick="deleteModal()" style="font-size:20px"></i>
                     </div>
                     <div class="more">
                         <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
@@ -254,7 +254,7 @@
                 <div class="icons">
                     <div class="delete">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
-                        <i class="fa fa-trash" style="font-size:24px"></i>
+                        <i class="fa fa-trash" onclick="deleteModal()" style="font-size:20px"></i>
                     </div>
                     <div class="more">
                         <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
@@ -264,9 +264,25 @@
             </div>
 
             <!-- post 5 ends here -->
+        </div>
 
-            <!-- TODO: Write code for delete post modal here -->
+        <!-- TODO: Write code for delete post modal here -->
 
+
+
+        <div id="deleteModal" class="modal">
+            <div id="deleteContent" class="modal-content">
+                <div class="modal-head">
+                    <h2 id="dtitle" class="modal-title">Are you sure you want to delete this post?</h2>
+                </div>
+
+                <div class="del-btns">
+
+                    <button id="yes-btn">Yes</button>
+                    <button id="no-btn">No</button>
+                </div>
+
+            </div>
         </div>
 
 

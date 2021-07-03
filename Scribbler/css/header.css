@@ -122,6 +122,7 @@ input {
 .modal-title {
     align-self: center;
     font-family: Abel;
+    font-weight: bold;
 }
 
 .bottom-banner {
