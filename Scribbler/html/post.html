@@ -92,46 +92,55 @@
             </div>
         </div>
 
+        <div class="bottom-container">
+            <div class="post-head">
 
-        <div class="post-head">
+                <div id="titleOfPost">
+                    <p id="ttl">Title here</p>
 
-            <div id="titleOfPost">
-                <p>Title here</p>
+                </div>
+
+                <center>
+                    <div id="titleArea" contenteditable="true"> </div>
+                </center>
+
+                <div class="author-row">
+                    <div id="Author">Author name</div>
+
+                    <div class="editSave"> <button id="edit-btn" onclick="toggleEditSave()">Edit <i class="fas fa-edit" style="font-size: 12px;"></i></button> </div>
+                </div>
+
+
             </div>
 
 
-            <div id="Author">Author name</div>
+            <div id="post-body">
+                content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post,
+                content of the post,
 
-            <div class="edit"> <button id="edit-btn">Edit</button></div>
-
-
-        </div>
-
-
-        <div id="post-body">
-            content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post,
-            content of the post,
-
-
-        </div>
-
-
-        <div class="like-block">
-            <div class="like"><button id="like-btn">Like</button></div>
-            <p id="like-text"> </p>
-        </div>
-
-
-
-        <div class="comment-block">
-            <textarea id="comment-text"></textarea>
-
-            <div class="comment"><button id="like-btn">Comment</button></div>
-
-            <p>All Comments</p>
-            <div id="comment-section">
 
             </div>
+            <div id="textArea" contenteditable="true"> </div>
+
+            <div class="like-block">
+                <div class="like"><button id="like-btn"><i class="fas fa-thumbs-up"></i> Like</button></div>
+                <p id="like-text">Be the first one to like this!</p>
+            </div>
+
+
+
+            <div class="comment-block">
+                <textarea id="comment-box" rows="5" cols="161" placeholder="Leave a comment..."></textarea>
+
+                <div class="comment"><button id="comment-btn">Comment</button></div>
+
+                <p id="all-comments">All Comments</p>
+
+                <div id="comment-section">
+                </div>
+            </div>
+
+
         </div>
 
         <!-- Adding java script files to the code-->
