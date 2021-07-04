@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/post.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+    <!-- TODO: Include Font Awesome file here -->
+    <link href="../fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+    <!--load all styles -->
+
+    <!-- TODO: Include Google Fonts file here -->
+    <link href='../css/font.css' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <!-- TODO: Include code for header here -->
+
+
+    <!-- Header -->
+
+    <div class="top-container">
+
+        <!-- Logo and tagline -->
+
+        <div class="heading">
+            <p id="logo">ScriBBler</p>
+            <p id="tagline">Explore, Imagine, Create</p>
+        </div>
+
+        <!-- SignIn and SignUp Buttons -->
+
+        <div class="right-buttons">
+            <button class="butn" id="signInBtn">Sign In</button>
+            <button class="butn" id="signUpBtn">Sign Up</button>
+        </div>
+    </div>
+
+
+
+    <!-- ALL THE MODALS -->
+    <div>
+
+        <!-- SignIn Modal -->
+
+        <div id="signInModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <span class="close">&times;</span>
+
+                    <h2 class="modal-title">Welcome Back!</h2>
+                </div>
+                <hr>
+                <form>
+                    <label for="username" class="label-text">Username</label>
+                    <input type="text" id="username" placeholder="Enter Username" required>
+                    <label for="password" class="label-text">Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" required>
+                    <button type="submit" class="signin-btn">Sign In</button>
+                </form>
+
+                <p class="bottom-banner">Not a member?<span class="signUpBottom">Sign Up</span></p>
+
+            </div>
+        </div>
+
+        <!-- SignUp Modal -->
+
+        <div id="signUpModal" class="modal">
+
+            <div class="modal-content">
+                <div class="modal-head">
+                    <span class="close">&times;</span>
+                    <h2 class="modal-title">Get Started</h2>
+                </div>
+                <hr>
+                <form>
+                    <label for="fullname" class="label-text">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Enter Full Name" required>
+                    <label for="username" class="label-text">Username</label>
+                    <input type="text" id="username" placeholder="Enter Username" required>
+                    <label for="password" class="label-text">Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" required>
+                    <label for="confirmpassword" class="label-text">Confirm Password</label>
+                    <input type="password" id="confirm_password" placeholder="Confirm Password" required>
+                    <button type="submit" class="signup-btn">Sign up</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="post-head">
+
+            <div id="titleOfPost">
+                <p>Title here</p>
+            </div>
+
+
+            <div id="Author">Author name</div>
+
+            <div class="edit"> <button id="edit-btn">Edit</button></div>
+
+
+        </div>
+
+
+        <div id="post-body">
+            content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post,
+            content of the post,
+
+
+        </div>
+
+
+        <div class="like-block">
+            <div class="like"><button id="like-btn">Like</button></div>
+            <p id="like-text"> </p>
+        </div>
+
+
+
+        <div class="comment-block">
+            <textarea id="comment-text"></textarea>
+
+            <div class="comment"><button id="like-btn">Comment</button></div>
+
+            <p>All Comments</p>
+            <div id="comment-section">
+
+            </div>
+        </div>
+
+        <!-- Adding java script files to the code-->
+
+        <script defer src="../fontawesome-free-5.15.3-web/js/all.js"></script>
+
+
+        <!--load all styles -->
+
+        <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+        <script src="../js/bloglist.js"></script>
+
+        <script src="../js/post.js"></script>
+
+        <script src="../js/header.js"></script>
+</body>
+
+</html>
