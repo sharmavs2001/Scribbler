@@ -3,21 +3,23 @@
 
 <head>
 
-
+    <!-- CSS files-->
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
+
+    <!-- Bootstrap file -->
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
 
-    <!-- TODO: Include Font Awesome file here -->
 
-    <!-- TODO: Include Google Fonts file here -->
+    <!-- Google Fonts file-->
     <link href='css/font.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <!-- TODO: Include all your code for the header and home page here -->
 
-    <!-- Header -->
+
+    <!-- Top Container - it contains logo and signin and signup buttons -->
+
 
     <div class="top-container">
 
@@ -36,7 +38,9 @@
         </div>
     </div>
 
-    <!-- Yellow Buttons -->
+
+
+    <!-- Contains The  All Posts and Create Post Buttons -->
 
     <div class="middle-buttons">
         <button id="allPostsBtn" class="mbutn">All Posts</button>
@@ -54,11 +58,15 @@
         <div id="signInModal" class="modal">
             <div class="modal-content">
                 <div class="modal-head">
+
+                    <!--close sign -->
                     <span class="close">&times;</span>
 
+                    <!--  Title -->
                     <h2 class="modal-title">Welcome Back!</h2>
                 </div>
                 <hr>
+                <!--form-->
                 <form>
                     <label for="username" class="label-text">Username</label>
                     <input type="text" id="username" placeholder="Enter Username" required>
@@ -78,10 +86,15 @@
 
             <div class="modal-content">
                 <div class="modal-head">
+
+                    <!--close sign -->
                     <span class="close">&times;</span>
+
+                    <!--  Title -->
                     <h2 class="modal-title">Get Started</h2>
                 </div>
                 <hr>
+                <!--Form-->
                 <form>
                     <label for="fullname" class="label-text">Full Name</label>
                     <input type="text" id="fullname" placeholder="Enter Full Name" required>
@@ -102,9 +115,15 @@
 
             <div class="createPost-modal-content">
                 <div class="modal-head">
+
+                    <!--close Sign-->
                     <span id="pclose" class="close">&times;</span>
+
+                    <!--Title-->
                     <h2 class="modal-title">Pen your post</h2>
                 </div>
+
+                <!--form-->
                 <form id=create-post-form>
                     <label for="ptile" class="label-text">Title</label>
                     <input type="text" id="ptitle" placeholder="" required>
@@ -119,8 +138,10 @@
     </div>
 
 
-
+    <!-- Bootstrap for JS-->
     <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+    <!-- Js files-->
     <script src="js/index.js"></script>
     <script src="js/header.js"></script>
 </body>

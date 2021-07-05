@@ -1,10 +1,18 @@
+/*body of the all posts*/
+
 body {
     background-color: orange !important;
 }
 
+
+/*tagline color*/
+
 #tagline {
     color: white;
 }
+
+
+/*contains all the posts*/
 
 .posts-container {
     display: flex;
@@ -13,8 +21,11 @@ body {
     justify-content: space-around;
 }
 
+
+/*block fo each post*/
+
 .post-block {
-    width: 40%;
+    width: 45%;
     background: #fff;
     box-shadow: 0 4px 10px 0 rgba(17, 4, 63, 0.2), 0 4px 20px 0 rgba(79, 19, 97, 0.19);
     margin: 10px;
@@ -23,7 +34,11 @@ body {
     display: flex;
     flex-direction: row;
     max-height: 170px !important;
+    justify-content: space-around;
 }
+
+
+/*left portion(author name) of the post*/
 
 .left {
     width: 20%;
@@ -36,13 +51,19 @@ body {
     padding: 1%;
 }
 
+
+/*right portion(tile and content) of the post*/
+
 .right {
     text-align: left;
-    width: 75%;
+    width: 73%;
     background-color: #E8E8E8;
     color: #000000;
     padding: 3% 4px 3% 3%;
 }
+
+
+/*title of the post*/
 
 .post-title {
     font-family: 'Itim', cursive;
@@ -54,6 +75,9 @@ body {
     margin-top: 2%;
 }
 
+
+/*post body*/
+
 .post-body {
     font-family: 'Libre Baskerville', serif;
     margin-top: 4%;
@@ -62,12 +86,18 @@ body {
     height: 50%;
 }
 
+
+/*favicons - trash and ecilips*/
+
 .icons {
     background-color: #E8E8E8;
-    width: 5%;
+    width: 7%;
     text-align: left;
-    padding-right: 5px !important;
+    padding-right: 15px !important;
 }
+
+
+/*reash icon*/
 
 .delete {
     cursor: pointer;
@@ -78,6 +108,9 @@ body {
     top: 12%;
 }
 
+
+/*ecilips icon*/
+
 .more {
     cursor: pointer;
     font-size: 18px;
@@ -87,11 +120,17 @@ body {
     top: 67%;
 }
 
+
+/*delete*/
+
 .del-btns {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+/*yes button of the modal*/
 
 #yes-btn {
     background-color: #f44336;
@@ -104,6 +143,9 @@ body {
     cursor: pointer;
 }
 
+
+/*no button of the modal*/
+
 #no-btn {
     background-color: #4CAF50;
     /* Green */
@@ -115,10 +157,16 @@ body {
     cursor: pointer;
 }
 
+
+/*heading of delete modal*/
+
 #dtitle {
     font-size: 18px;
     margin: 20px;
 }
+
+
+/*content of delete modal*/
 
 #deleteContent {
     width: 35% !important;

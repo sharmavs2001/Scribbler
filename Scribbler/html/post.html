@@ -3,25 +3,25 @@
 
 <head>
 
-
+    <!-- CSS files-->
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/post.css">
+
+    <!-- Bootstrap file -->
     <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
 
-    <!-- TODO: Include Font Awesome file here -->
+    <!--  Font Awesome file -->
     <link href="../fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
     <!--load all styles -->
 
-    <!-- TODO: Include Google Fonts file here -->
+    <!--Google Fonts file -->
     <link href='../css/font.css' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
-    <!-- TODO: Include code for header here -->
 
-
-    <!-- Header -->
+    <!-- Top Container - it contains logo and signin and signup buttons -->
 
     <div class="top-container">
 
@@ -48,13 +48,21 @@
         <!-- SignIn Modal -->
 
         <div id="signInModal" class="modal">
+
+            <!-- content of modal-->
             <div class="modal-content">
+
+                <!--modal head - contains tile and close sign -->
                 <div class="modal-head">
+
+                    <!--close sign -->
                     <span class="close">&times;</span>
 
+                    <!--  Title -->
                     <h2 class="modal-title">Welcome Back!</h2>
                 </div>
                 <hr>
+                <!--form-->
                 <form>
                     <label for="username" class="label-text">Username</label>
                     <input type="text" id="username" placeholder="Enter Username" required>
@@ -72,12 +80,21 @@
 
         <div id="signUpModal" class="modal">
 
+            <!-- content of modal-->
             <div class="modal-content">
+
+                <!--modal head - contains tile and close sign -->
                 <div class="modal-head">
+
+                    <!--close Sign-->
                     <span class="close">&times;</span>
+
+                    <!--Title-->
                     <h2 class="modal-title">Get Started</h2>
                 </div>
                 <hr>
+
+                <!--form-->
                 <form>
                     <label for="fullname" class="label-text">Full Name</label>
                     <input type="text" id="fullname" placeholder="Enter Full Name" required>
@@ -92,42 +109,49 @@
             </div>
         </div>
 
+
+        <!--Bottom container - below header - contains title, writer's name and Edit ans save buttons, post content, like section and comment section  -->
         <div class="bottom-container">
+
+            <!-- post-head - contains the title of post, autor name and edit save button --->
             <div class="post-head">
 
+                <!--title of the post-->
                 <div id="titleOfPost">
                     <p id="ttl">Title here</p>
-
                 </div>
 
+                <!--text that appears after edit is clicked-->
                 <center>
                     <div id="titleArea" contenteditable="true"> </div>
                 </center>
 
+                <!--author name and edit save button container-->
                 <div class="author-row">
                     <div id="Author">Author name</div>
 
                     <div class="editSave"> <button id="edit-btn" onclick="toggleEditSave()">Edit <i class="fas fa-edit" style="font-size: 12px;"></i></button> </div>
                 </div>
 
-
             </div>
 
+
+            <!-- Content of the post -->
 
             <div id="post-body">
-                content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post, content of the post,
-                content of the post,
-
-
+                content of the post
             </div>
             <div id="textArea" contenteditable="true"> </div>
+
+
+            <!-- Like button - and text below it -->
 
             <div class="like-block">
                 <div class="like"><button id="like-btn"><i class="fas fa-thumbs-up"></i> Like</button></div>
                 <p id="like-text">Be the first one to like this!</p>
             </div>
 
-
+            <!--comment block- contains the comment box, comment button and all the comments-->
 
             <div class="comment-block">
                 <textarea id="comment-box" rows="5" cols="161" placeholder="Leave a comment..."></textarea>
@@ -148,7 +172,7 @@
         <script defer src="../fontawesome-free-5.15.3-web/js/all.js"></script>
 
 
-        <!--load all styles -->
+        <!--load all scripts -->
 
         <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 

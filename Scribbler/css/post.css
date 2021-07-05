@@ -1,6 +1,11 @@
+/* Bottom container contains everything below header i.e.: post- title, post content, like section ans comment section*/
+
 .bottom-container {
     margin: 2% 6.5%;
 }
+
+
+/*title of the post */
 
 #titleOfPost {
     display: block;
@@ -10,11 +15,17 @@
     text-align: center;
 }
 
+
+/* the container containing author name and edit save button*/
+
 .author-row {
     display: flex;
     justify-content: space-between;
     margin: 2% 0 1%;
 }
+
+
+/*styling for Author name*/
 
 #Author {
     font-family: 'Niconne', cursive;
@@ -23,10 +34,16 @@
     justify-content: space-between;
 }
 
+
+/*Container for post content*/
+
 #post-body {
     display: block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+/*Edit save button*/
 
 #edit-btn,
 #save-btn {
@@ -39,14 +56,20 @@
     border: 1px solid pink;
     height: 37px;
     width: 75px;
-    background-color: rgb(247, 44, 94);
+    background-color: rgb(248, 33, 87);
     text-align: center;
     box-shadow: 1px 1px 10px 1px #f17979;
 }
 
+
+/* like block - containing likebutton and text below it */
+
 .like-block {
     margin: 3% 0;
 }
+
+
+/*styling for like button*/
 
 #like-btn {
     font-family: serif;
@@ -62,26 +85,47 @@
     border-radius: 4px;
 }
 
+
+/*Styling for text below like button*/
+
 #like-text {
     margin-top: 10px;
     font-family: monospace;
     font-size: 14px;
 }
 
+
+/*comment box for writing comments*/
+
 #comment-box {
+    float: left;
+    width: 100%;
+    min-height: 75px;
+    outline: none;
+    resize: none;
     font-family: monospace;
     font-size: 13px;
     border-color: rgb(167, 163, 163);
     color: grey;
 }
 
+
+/* comment box on focus*/
+
 #comment-box:focus {
+    float: left;
+    width: 100%;
+    min-height: 75px;
     outline: none;
+    resize: none;
     font-family: monospace;
     font-size: 13px;
     border-color: rgb(167, 163, 163);
     color: grey;
 }
+
+
+/*comment button */
 
 #comment-btn {
     margin-top: 7px;
@@ -96,6 +140,9 @@
     padding: 7px 15px;
 }
 
+
+/*allcomment text*/
+
 #all-comments {
     margin: 30px 0 10px;
     font-family: serif;
@@ -103,12 +150,18 @@
     font-size: 16px;
 }
 
+
+/*comment section - where commments are postes*/
+
 #comment-section {
     background-color: rgb(224, 211, 211);
     padding: 1%;
     display: flex;
     flex-direction: column;
 }
+
+
+/*the commented text - appears incomment section*/
 
 .commented {
     font-family: serif;
@@ -118,9 +171,15 @@
     padding: 15px;
 }
 
+
+/*reducing paragraph's margin*/
+
 .commented p {
     margin-bottom: 0;
 }
+
+
+/*the title text area that appears ehen Edit button is clicked*/
 
 #titleArea {
     display: none;
@@ -135,6 +194,9 @@
     padding: 0;
 }
 
+
+/*the post text area that appears when clicked edit*/
+
 #textArea {
     display: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -145,10 +207,16 @@
     margin: 0 1% !important;
 }
 
+
+/*reducing bottom margin*/
+
 #textArea p,
 #titleArea p {
     margin-bottom: 0;
 }
+
+
+/*title are on focus*/
 
 #titleArea:focus {
     outline: none !important;
@@ -157,6 +225,9 @@
     margin: 0 1%;
     padding: 0;
 }
+
+
+/*text area on focus*/
 
 #textArea:focus {
     outline: none !important;

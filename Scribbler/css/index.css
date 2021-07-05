@@ -1,3 +1,5 @@
+/*body of the hompage*/
+
 body {
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
@@ -11,6 +13,9 @@ body {
     display: block;
     height: 100%;
 }
+
+
+/*buttons at the middle- yelow button*/
 
 .mbutn {
     color: black;
@@ -54,11 +59,17 @@ textarea {
     width: 70%;
 }
 
+
+/*post tiltle*/
+
 #ptitle {
     padding: 8px 0;
     width: 50%;
     margin-bottom: 10px;
 }
+
+
+/*post close*/
 
 #pclose {
     position: absolute;

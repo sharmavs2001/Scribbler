@@ -1,3 +1,4 @@
+// getting post title, writers nam and post content from the bloglist file
 var title = localStorage.getItem("pTitle");
 var authorName = localStorage.getItem("pAuthor");
 var postBody = localStorage.getItem("pBody");
@@ -7,7 +8,7 @@ document.getElementById('Author').innerHTML = authorName;
 document.getElementById('post-body').innerHTML = postBody;
 
 
-
+// for toggle edit and sace buttons
 var flag = 0;
 
 function toggleEditSave() {
@@ -31,7 +32,7 @@ function toggleEditSave() {
 }
 
 
-
+/* for making the tile and post content editable*/
 function makeEditAble() {
 
     document.getElementById('titleOfPost').style.display = "none";
@@ -52,7 +53,7 @@ function makeEditAble() {
 }
 
 
-
+/*save the changes after making changes*/
 function saveChanges() {
 
 
@@ -89,7 +90,7 @@ like.onclick = function() {
 
 
 
-/* Comment maker */
+/* Comment maker- if the comment text is empty the comment wouldn't be added */
 var commentBtn = document.getElementById('comment-btn');
 commentBtn.onclick = function() {
     var comment = document.getElementById('comment-box');
